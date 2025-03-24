@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/Outfit-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Outfit-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    font-size: 22px;
+  }
+
+@font-face {
+    font-family: 'Outfit text';
+    src: url('/assets/fonts/Outfit-Regular.woff2') format('woff2'),
+         url('/assets/fonts/Outfit-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+    font-display: swap;
+  }
+
+body,html {
+    display: flex;
+    height: 100%;
+    background-color: #D5E1EF;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.qrbox {
+    height: 499px;
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 16px;
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+   
+
+}
+
+.bluebox{
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    padding:50px;
+}
+
+.qrcodePNG{
+    width: 100%; /* Set only one dimension */
+    /* height is automatically calculated to maintain aspect ratio */
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+  font-weight: 700; 
+  font-size: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 120%; 
+  letter-spacing: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #1F314F;
+    
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+  font-weight: 400; 
+  font-size: 15px;
+  line-height: 140%; 
+  letter-spacing: 0.2px;
+  margin-top: 0px;
+  color: #68778D;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 0px;
+
+    
+}
+
